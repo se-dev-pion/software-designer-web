@@ -1,0 +1,20 @@
+[project]
+authors = [{ name = "BioCrossCoder", email = "viscaria_dignics@163.com" }]
+dependencies = ["streamlit (>=1.41.1,<2.0.0)", "requests (>=2.32.3,<3.0.0)"]
+description = ""
+name = "software-designer-web"
+readme = "README.md"
+requires-python = ">=3.13"
+version = "0.1.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+toml = "^0.10.2"
+types-toml = "^0.10.8.20240310"
+types-requests = "^2.32.0.20241016"
