@@ -18,3 +18,4 @@ package-mode = false
 toml = "^0.10.2"
 types-toml = "^0.10.8.20240310"
 types-requests = "^2.32.0.20241016"
+pre-commit = "^4.1.0"
